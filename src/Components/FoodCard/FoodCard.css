@@ -1,0 +1,80 @@
+.foodcard {
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 1rem;
+      flex-direction: column;
+      box-shadow: 0px 0px 20px var(--main-shadow-color);
+      width: 230px;
+
+      .img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                  max-width: 60%;
+                  aspect-ratio: 1;
+                  cursor: pointer;
+                  transition: all .6s ease linear;
+
+                  &:hover {
+                        background-color: red;
+
+                  }
+            }
+      }
+
+      .details {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            align-items: center;
+
+            h2 {
+                  white-space: nowrap;
+            }
+
+      }
+
+      p {
+            padding: 0 1rem;
+            text-align: justify;
+      }
+
+      &:hover {
+            box-shadow: -20px 19px 20px var(--main-shadow-color);
+      }
+
+      .details-1 {
+            display: flex;
+            gap: 6rem;
+            align-items: center;
+            margin-bottom: 1rem;
+            justify-content: center;
+
+            span {
+                  display: flex;
+                  font-size: 2rem;
+            }
+
+            svg {
+                  max-width: 5vw;
+                  height: 4vh;
+                  font-size: 3rem;
+                  font-weight: 600;
+            }
+
+            button {
+                  padding: 0.3rem;
+                  border-radius: 1rem;
+                  border: none;
+                  box-shadow: 0px 0px 10px var(--main-shadow-color);
+
+                  &:hover {
+                        padding: 0.4rem;
+                  }
+            }
+      }
+}

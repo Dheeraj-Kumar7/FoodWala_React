@@ -1,0 +1,63 @@
+.cart{
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 240px;
+      height: 100%;
+
+      background-color: white;
+      animation: slidekaro 0.5s ease-in forwards;
+      .cart-1{
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem;
+            /* width: 800px; */
+            /* height: 100px; */
+            font-size: 2rem;
+            z-index: 11;
+            position: sticky;
+      }
+      .cart-2{
+            position: absolute;
+            bottom: 1rem;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            width: 100%;
+            gap: 0.6rem;
+            font-size: 1.4rem;
+            background-color: rgb(177, 241, 220);
+            /* z-index: 99; */
+            .checkout{
+                  background-color: var(--main-lite-green-color);
+                  width: 50%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+            }
+      }
+}
+@keyframes slidekaro{
+      0%{
+            transform: translateX(100%);
+      }
+      100%{
+            transform: translateX(0%);
+      }
+}
+svg{
+      cursor: pointer;
+      border: 1px solid black;
+      padding: 5px;
+      font-size: 2.4rem;
+      border-radius: 0.4rem;
+      &:hover{
+            background-color: beige;
+            font-size: 2.5rem;
+      }
+}
+.importwala{
+      margin-bottom: 10rem;
+      margin-top: 2rem;
+
+}

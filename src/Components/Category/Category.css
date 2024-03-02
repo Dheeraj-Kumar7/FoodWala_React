@@ -1,0 +1,10 @@
+.All-btn{
+      margin: 2rem 5rem;
+      h1{
+            margin: 1rem 0;
+      }
+      .btn{
+            display: flex;
+            gap: 1rem;
+      }
+}

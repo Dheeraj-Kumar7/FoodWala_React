@@ -1,0 +1,39 @@
+{
+    "students":[
+        {
+            "name":"dheeraj",
+            "age":23,
+            "email":"rautdheeraj@gmail.com",
+            "number":7042276834,
+            "colleg":"IIMT College of science and technology",
+            "degree":"Bsc.(CS)",
+            "Designation":"web development"
+        },
+        {
+            "name":"dheeraj",
+            "age":23,
+            "email":"rautdheeraj@gmail.com",
+            "number":7042276834,
+            "colleg":"IIMT College of science and technology",
+            "degree":"Bsc.(CS)",
+            "Designation":"web development",
+            "personaldetails":[
+                {
+                    "country":"INDIA",
+                    "state":"uttar pradesh",
+                    "city":"noida city",
+                    "district":"GB Nagar"
+                }
+            ]
+        },
+        {
+            "name":"dheeraj",
+            "age":23,
+            "email":"rautdheeraj@gmail.com",
+            "number":7042276834,
+            "colleg":"IIMT College of science and technology",
+            "degree":"Bsc.(CS)",
+            "Designation":"web development"
+        }
+    ]
+}

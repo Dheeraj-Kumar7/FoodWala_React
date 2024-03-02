@@ -1,0 +1,45 @@
+.container {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      box-shadow: 2px 10px 10px var(--main-shadow-color);
+      align-items: center;
+      padding: 1rem;
+
+      .navbar img {
+            width: 4vw;
+            aspect-ratio: 1;
+      }
+
+      .navbar-1 {
+            margin: 0 10rem 0 0;
+
+            & input {
+                  padding: 1rem;
+                  font-size: 1.5rem;
+                  border-radius: 10rem;
+                  width: 30vw;
+                  outline: none;
+            }
+      }
+}
+.sticky-header{
+      position: sticky;
+      top: 0;
+      background-color: azure;
+      animation: slideSlider 0.3s ease-in forwards;
+      
+}
+@keyframes slideSlider{
+      0%{
+           transform: translateY(-100px); 
+      }
+      100%{
+           transform: translateY(0px);
+      }
+}
+.shopping{
+      position: absolute;
+      top: 2.7rem;
+      right: 7rem;
+}

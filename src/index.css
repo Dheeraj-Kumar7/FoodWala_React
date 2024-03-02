@@ -1,0 +1,39 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+:root{
+      --main-black-color:#000000;
+      --main-white-color:#ffffff;
+      --main-blue-color:rgb(98, 196, 235);
+      --main-dark-blue-color:blue;
+      --main-lite-green-color:rgb(127, 205, 180);
+      --main-red-color:rgb(248, 6, 6);
+      --main-shadow-color:rgba(0, 0, 0, 0.2);
+}
+html{
+      font-size: 62.5%;
+      font-weight: 500;
+      text-transform: capitalize;
+}
+body{
+      background-color: rgba(243, 243, 243, 0.9);
+}
+.UniqueBtn{
+      background-color: var(--main-black-color);
+      border-radius: 10rem;
+      font-size: 1.4rem;
+      color: var(--main-white-color);
+      width: 12vw;
+      padding: 1rem;
+      box-shadow: var(--main-shadow-color);
+      flex-shrink: 1;
+      white-space: 1;
+      &:hover{
+            background-color: var(--main-white-color);
+            color: var(--main-black-color);
+            font-weight: 600;
+            font-size: 1.5rem;
+      }
+}
